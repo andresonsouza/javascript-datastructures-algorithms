@@ -1,3 +1,5 @@
+// VARIÁVEIS
+
 var num = 1; // {1}
 
 num = 3; // {2}
@@ -23,3 +25,29 @@ console.log('trueVallue' + trueValue);
 console.log('nullVar' + nullVar);
 
 console.log('und' + und);
+
+// ESCOPO DAS VRIÁVEIS
+
+var myVariable = 'Global';
+
+var myOtherVariable = 'Global';
+
+function myFunction() {
+  var myVariable = 'Local';
+  return myVariable;
+}
+
+function myOtherFunction() {
+  myOtherVariable = 'Local';
+  return myOtherVariable;
+}
+
+console.log(myVariable); // {1}
+
+console.log(myFunction()); // {2}
+
+console.log(myOtherVariable); // {3}
+
+console.log(myOtherFunction()); // {4}
+
+console.log(myOtherVariable); // {5}
