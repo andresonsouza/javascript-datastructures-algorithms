@@ -49,9 +49,19 @@ console.log('true && false: ' + (true && false));//{4}
 
 console.log('false || true: ' + (false || true));
 
-console.log('!true: ' + (!true))
+console.log('!true: ' + (!true));
 
+console.log('5 & 1: ',(5 & 1));
 
+console.log('5 | 1: ',(5 | 1));
+
+console.log('~5 : ',(~5));
+
+console.log('5 ^ 1: ',(5 ^ 1));
+
+console.log('5 << 1: ',(5 << 1));
+
+console.log('5 >> 1: ',(5 >> 1));
 
 
 
