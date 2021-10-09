@@ -1,0 +1,22 @@
+{
+  "name": "javascript-datastructures-algorithms",
+  "version": "1.0.0",
+  "description": "Repositório de estudo com base nos exercícios do livro da Loiane Groner",
+  "main": "01-HelloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresonsouza/javascript-datastructures-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresonsouza/javascript-datastructures-algorithms/issues"
+  },
+  "homepage": "https://github.com/andresonsouza/javascript-datastructures-algorithms#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
