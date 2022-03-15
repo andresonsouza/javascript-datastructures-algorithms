@@ -1,15 +1,16 @@
-/*
-
+/**
+ * @description exemplo 01
+ */
 var num = 1;
 
 if(num === 1) {
     console.log('num is equal to 1');
 }
-*/
 
 
-
-/*
+/**
+ * @description exemplo 02
+ */
  var num = 0;
  
  if(num === 1) {
@@ -17,17 +18,20 @@ if(num === 1) {
  } else {
      console.log('num is not equal to 1, the value of num is ' + num);
  }
- */
 
 
-/* 
+/**
+ * @description exemplo 03
+ */ 
 var num = 1;
 if (num === 1) {
     console.log('num is equal to 1');
 }
-*/
 
-/*
+
+/**
+ * @description exemplo 04
+ */
 var num = 0;
 if (num === 1) {
     console.log('num is equal to 1');
@@ -35,26 +39,28 @@ if (num === 1) {
 else {
     console.log('num is not equal to 1, the value of num is ' + num);
 }
-*/
 
 
-/*
+/**
+ * @description exemplo 05
+ */
 var num = 0;
 if (num === 1) {
     num--;
 } else {
     num++;
 }
-*/
 
-/*
+/**
+ * @description exemplo 06
+ */
  var num = 0;
  (num === 1) ? num-- : num++
- */
 
 
 /**
- * 
+ * @description exemplo 07
+ */
  var month = 5;
  if (month === 1) {
      console.log('January');
@@ -68,38 +74,3 @@ if (num === 1) {
  else {
      console.log('Month is not January, February or March');
  }
- * 
- */
-
-
-var month = 5;
-switch (month) {
-    case 1:
-        console.log('January');
-        break;
-    case 2:
-        console.log('February');
-        break;
-    case 3:
-        console.log('March');
-        break;
-    default:
-        console.log('Month is not January, February or March');
-}
-
-for (var i = 0; i < 10; i++) {
-    console.log(i);
-}
-
-var count = 0;
-while (count < 10) {
-    console.log(i);
-
-    count++;
-}
-
-var x = 0;
-do {
-    console.log(x);
-    x++;
-} while (x < 10);
